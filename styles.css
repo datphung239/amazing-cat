@@ -68,7 +68,7 @@ a {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 10px;
     border: 2px solid #3882F6;
 }
 
@@ -136,5 +136,51 @@ a {
 }
 
 .inspiring-container .inspiring .author {
+    font-size: 30px;
+    font-weight: bold;
+}
+.inspiring-container .inspiring .author {
     align-self: flex-end;
 }
+
+/* sign up  */
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    
+}
+
+.sign-up-container .sign-up {
+    width: 900px;
+    height: 100px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-container .sign-up .sign-up-content {
+    color: white;
+}
+.sign-up-container .sign-up .sign-up-content .big {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.sign-up-container .sign-up .sign-up-button {
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 15px;
+}
+
+
