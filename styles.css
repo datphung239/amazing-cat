@@ -184,3 +184,15 @@ a {
 }
 
 
+/* copyright */
+
+.copy-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 30px;
+    font-size: small;
+}
+
