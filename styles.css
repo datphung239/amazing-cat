@@ -1,0 +1,140 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1F2937;
+    gap: 100px;
+}
+.header .logo-link {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    color: #E5E7E8;
+    padding: 20px;
+}
+.header .logo-link .link{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.header .logo-link .logo{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.header .intro-img {
+    width: 900px;
+    margin-bottom: 130px;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.header .intro-img .intro{
+    width: 400px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .intro-img .intro .title{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8
+}
+
+.header .intro-img .intro .content{
+    font-size: 18px;
+}
+
+.header .intro-img .intro button{
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+}
+
+.header .intro-img .img{
+    width: 400px;
+    height: auto;
+}
+
+
+/* random-information */
+.random_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:35px;
+    padding: 75px 0 100px 0;
+}
+
+.random_information .rand-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.random_information .more-img {
+    display: flex;
+    justify-content: center;
+    gap:40px;
+}
+
+.random_information .more-img .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: auto;
+}
+
+.random_information .more-img .img .rand-img{
+    width: 150px;
+    height: 150px;
+    border: #3882F6 solid 4px;
+    border-radius: 7px
+}
+
+/* inspring */
+.inspiring-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px;
+}
+
+.inspiring-container .inspiring {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inspiring-container .inspiring .content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.inspiring-container .inspiring .author {
+    align-self: flex-end;
+}
