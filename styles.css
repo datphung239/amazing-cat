@@ -1,199 +1,194 @@
-
 body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
 }
 
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 /* Header */
 
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #1F2937;
-    gap: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f2937;
+  gap: 100px;
 }
 .header .logo-link {
-    width: 900px;
-    display: flex;
-    justify-content: space-between;
-    color: #E5E7E8;
-    padding: 20px;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  color: #e5e7e8;
+  padding: 20px;
 }
-.header .logo-link .link{
-    font-size: 18px;
-    display: flex;
-    justify-content: space-around;
-    gap: 30px;
+.header .logo-link .link {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
 }
 
-.header .logo-link .logo{
-    font-weight: bold;
-    font-size: 24px;
+.header .logo-link .logo {
+  font-weight: bold;
+  font-size: 24px;
 }
 
 .header .intro-img {
-    width: 900px;
-    margin-bottom: 130px;
-    display: flex;
-    justify-content: space-between;
-    color: #F9FAF8;
+  width: 900px;
+  margin-bottom: 130px;
+  display: flex;
+  justify-content: space-between;
+  color: #f9faf8;
 }
 
-.header .intro-img .intro{
-    width: 400px;
-    gap: 5px;
-    display: flex;
-    flex-wrap: wrap;
+.header .intro-img .intro {
+  width: 400px;
+  gap: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.header .intro-img .intro .title{
-    font-size: 48px;
-    font-weight:bolder;
-    color: #F9FAF8
+.header .intro-img .intro .title {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
 }
 
-.header .intro-img .intro .content{
-    font-size: 18px;
+.header .intro-img .intro .content {
+  font-size: 18px;
 }
 
-.header .intro-img .intro button{
-    width: 100px;
-    height: 30px;
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 2px solid #3882F6;
+.header .intro-img .intro button {
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #3882f6;
 }
 
-.header .intro-img .img{
-    width: 400px;
-    height: auto;
+.header .intro-img .img {
+  width: 400px;
+  height: auto;
 }
-
 
 /* random-information */
 .random_information {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:35px;
-    padding: 75px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  padding: 75px 0 100px 0;
 }
 
 .random_information .rand-header {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
 }
 
 .random_information .more-img {
-    display: flex;
-    justify-content: center;
-    gap:40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 .random_information .more-img .img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 150px;
-    height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  height: auto;
 }
 
-.random_information .more-img .img .rand-img{
-    width: 150px;
-    height: 150px;
-    border: #3882F6 solid 4px;
-    border-radius: 7px
+.random_information .more-img .img .rand-img {
+  width: 150px;
+  height: 150px;
+  border: #3882f6 solid 4px;
+  border-radius: 7px;
 }
 
 /* inspring */
 .inspiring-container {
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 200px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 200px;
 }
 
 .inspiring-container .inspiring {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .inspiring-container .inspiring .content {
-    font-size: 36px;
-    font-style: italic;
-    color: #1F2937;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
 }
 
 .inspiring-container .inspiring .author {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 .inspiring-container .inspiring .author {
-    align-self: flex-end;
+  align-self: flex-end;
 }
 
 /* sign up  */
 
 .sign-up-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
 }
 
 .sign-up-container .sign-up {
-    width: 900px;
-    height: 100px;
-    background-color: #3882f6;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  width: 900px;
+  height: 100px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .sign-up-container .sign-up .sign-up-content {
-    color: white;
+  color: white;
 }
 .sign-up-container .sign-up .sign-up-content .big {
-    font-weight: bold;
-    font-size: larger;
-    margin-bottom: 5px;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 5px;
 }
 
 .sign-up-container .sign-up .sign-up-button {
-    width: 100px;
-    height: 30px;
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 2px solid white;
-    font-size: 15px;
+  width: 100px;
+  height: 30px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid white;
+  font-size: 15px;
 }
-
 
 /* copyright */
 
 .copy-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    color: white;
-    padding: 30px;
-    font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 30px;
+  font-size: small;
 }
-
